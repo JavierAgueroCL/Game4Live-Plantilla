@@ -14,6 +14,7 @@ do_action( 'radium_title' );
  
 wp_head(); //* we need this for plugins and hooks
 ?>
+<link rel='stylesheet' id='theme-mobile-css'  href="<?php bloginfo('template_url'); ?>/style.css" type='text/css' media='all' />
 </head>
 <body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
@@ -26,5 +27,12 @@ wp_head(); //* we need this for plugins and hooks
 	    	do_action( 'radium_header' );
 	    	do_action( 'radium_after_header' );
 	    ?>
+
+<?php 
+if(is_home()) {
+	putRevSlider("portada");
+	echo do_shortcode('[carousel id="15"][/carousel]'); 
+}
+?>
 
 		<div id="main-container">

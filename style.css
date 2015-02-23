@@ -9,3 +9,14 @@ License:GNU General Public License
 License URI:license.txt
 Tags:translation-ready,theme-options,custom-menu
 ----------------------------------------------------------------------------------- */
+
+.boxed #theme-wrapper-inner {
+	box-shadow: 0 0 0px rgba(0,0,0,.2);
+	max-width: 100%;
+}
+#header.has-news .nav-primary {
+	margin-left: 0px;
+}
+#header .site-navigation .nav-primary {
+	border-left: 5px solid #000;
+}
