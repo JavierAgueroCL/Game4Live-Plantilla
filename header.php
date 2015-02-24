@@ -14,6 +14,9 @@ do_action( 'radium_title' );
  
 wp_head(); //* we need this for plugins and hooks
 ?>
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/jquery.bxslider.css" type="text/css" />
+<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.bxslider.min.js"></script>
+<link rel='stylesheet' id='theme-mobile-css'  href="<?php bloginfo('template_url'); ?>/style.css" type='text/css' media='all' />
 </head>
 <body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
@@ -22,9 +25,10 @@ wp_head(); //* we need this for plugins and hooks
     <div id="theme-wrapper">
     	<div id="theme-wrapper-inner">
 	    <?php
-	    	do_action( 'radium_before_header' );
-	    	do_action( 'radium_header' );
 	    	do_action( 'radium_after_header' );
+	    	//do_action( 'radium_before_header' );
+	    	do_action( 'radium_header' );
+	    	//do_action( 'radium_after_header' );
 	    ?>
 
 		<div id="main-container">

@@ -21,7 +21,7 @@ if ( !function_exists('radium_site_header_trending_headlines') ) {
 
 	 	if ( radium_get_option('header_trending') || radium_get_option('header_news') ) {
 
-		?><div class="breaking-banner" data-interval="<?php echo ( $interval > 0 ) ? $interval * 1000 : 'false'; ?>"><div class="story"><?php
+		?><?php /*div class="breaking-banner" data-interval="<?php echo ( $interval > 0 ) ? $interval * 1000 : 'false'; ?>"><div class="story"><?php
 
 	        $args = apply_filters( 'radium_site_header_trending_headlines_posts_args', array(
 				'posts_per_page'    => $number,
@@ -50,7 +50,7 @@ if ( !function_exists('radium_site_header_trending_headlines') ) {
 	            </div>
 	    		<?php endif; ?>
 	    	</div><!-- .story -->
-	    </div><!-- .breaking-banner -->
+	    </div */ ?><!-- .breaking-banner -->
 	    <?php
 	    }
 	}
@@ -132,13 +132,13 @@ if( ! function_exists('radium_top_news') ) {
 		}
 		
 		?>
-		<div class="btn-group top-news">
+		<!--div class="btn-group top-news">
 		    <div class="ribbon-shadow-left bg-ribbon-shadow-left"></div>
 		    <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
 		        <span class="number"><?php echo $new_count; ?></span>
 		        <span><?php echo $header_news_title; ?></span>
 		    </a>
-		</div>
+		</div-->
 
 		<div class="submenu top-news-items">
 
