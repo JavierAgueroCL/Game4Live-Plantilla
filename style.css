@@ -9,6 +9,7 @@ License:GNU General Public License
 License URI:license.txt
 Tags:translation-ready,theme-options,custom-menu
 ----------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 .boxed #theme-wrapper-inner {
 	box-shadow: 0 0 0px rgba(0,0,0,.2);
@@ -19,4 +20,62 @@ Tags:translation-ready,theme-options,custom-menu
 }
 #header .site-navigation .nav-primary {
 	border-left: 5px solid #000;
+}
+.menu-principal {
+	position: absolute;
+	width: 100%;
+	z-index: 30;
+}
+.esquina {
+	background: url("assets/images/menu-esquina.png") no-repeat;
+	width: 63px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	margin-left: -73px;
+	margin-top: -14px;
+}
+.menu-principal ul {
+	float: right;
+	background: url("assets/images/fondo-menu.png") repeat;
+	width: 50%;
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+.menu-principal ul li {
+	float: left;
+}
+#menu-principal > li:nth-child(2) {
+	margin-left: -24px;
+}
+.menu-principal ul li a {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Open Sans", Sans-serif;
+	color: #0cb6de;
+	display: block;
+	padding: 11px 10px;
+}
+.menu-principal ul li a:hover {
+	color: #fff !important;
+	background: #000;
+}
+.menu-principal ul li a .icon {
+	margin-right: 10px;
+	color: #fff;
+}
+
+.1-grande-gris{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 800;
+	font-family: 'Open Sans';
+	color: rgb(155, 155, 155);
+	font-style: italic;
+	text-decoration: none;
+	background-color: transparent;
+	border-width: 0px;
+	border-color: rgb(0, 0, 0);
+	border-style: none;
 }
