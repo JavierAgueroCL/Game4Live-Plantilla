@@ -27,7 +27,7 @@ Tags:translation-ready,theme-options,custom-menu
 	z-index: 30;
 }
 .esquina {
-	background: url("assets/images/menu-esquina.png") no-repeat;
+	background: url("assets/images/esquina.png") no-repeat;
 	width: 63px;
 	height: 50px;
 	display: block;
@@ -78,4 +78,15 @@ Tags:translation-ready,theme-options,custom-menu
 	border-width: 0px;
 	border-color: rgb(0, 0, 0);
 	border-style: none;
+}
+.row-wrapper-fix {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.fondo-slider {
+	background: url("assets/images/fondo-juegos.jpg");
+	height: 208px;
+}
+.bx-viewport {
+	height: 200px !important;
 }

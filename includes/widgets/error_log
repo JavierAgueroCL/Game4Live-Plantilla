@@ -1,0 +1,5 @@
+[23-Feb-2015 17:26:47 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/gamelive/public_html/wp-content/themes/newscore/includes/widgets/widget-buzz.php on line 6
+[26-Feb-2015 01:00:02 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/gamelive/public_html/wp-content/themes/newscore/includes/widgets/widget-buzz.php on line 6
+[01-Mar-2015 11:45:06 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/gamelive/public_html/wp-content/themes/newscore/includes/widgets/widget-buzz.php on line 6
+[01-Mar-2015 20:03:27 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/gamelive/public_html/wp-content/themes/newscore/includes/widgets/widget-buzz.php on line 6
+[02-Mar-2015 13:07:41 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/gamelive/public_html/wp-content/themes/newscore/includes/widgets/widget-buzz.php on line 6
