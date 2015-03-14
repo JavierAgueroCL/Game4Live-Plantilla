@@ -465,7 +465,7 @@ $sections[] = array(
                         'type' => 'text',
                         'title' => __('Header Breadcrumb Title', 'radium'),
                         'desc' => '',
-                        'std' => __('You Are Here:', 'radium'),
+                        'std' => __('Estas en:', 'radium'),
                     ),
 
                     array(

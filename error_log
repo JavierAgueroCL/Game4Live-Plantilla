@@ -1,0 +1,5 @@
+[24-Feb-2015 12:41:52 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/gamelive/public_html/wp-content/themes/newscore/single-topic.php on line 10
+[24-Feb-2015 20:06:17 UTC] PHP Fatal error:  Call to undefined function radium_framework() in /home/gamelive/public_html/wp-content/themes/newscore/page.php on line 6
+[24-Feb-2015 20:06:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/gamelive/public_html/wp-content/themes/newscore/single-topic.php on line 10
+[26-Feb-2015 01:00:05 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/gamelive/public_html/wp-content/themes/newscore/single-topic.php on line 10
+[28-Feb-2015 17:58:26 UTC] PHP Fatal error:  Call to undefined function radium_framework() in /home/gamelive/public_html/wp-content/themes/newscore/page.php on line 6

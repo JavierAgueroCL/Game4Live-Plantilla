@@ -179,18 +179,18 @@ class Radium_Breadcrumb_Trail {
 	public function default_labels() {
 
 		$labels = array(
-			'browse'              => __( 'You are Here:',						'radium' ),
-			'home'                => __( 'Home',                                'radium' ),
+			'browse'              => __( 'Estas en:',						'radium' ),
+			'home'                => __( 'Inicio',                                'radium' ),
 			'error_404'           => __( '404 Not Found',                       'radium' ),
-			'archives'            => __( 'Archives',                            'radium' ),
+			'archives'            => __( 'Archivos',                            'radium' ),
 			/* Translators: %s is the search query. The HTML entities are opening and closing curly quotes. */
 			'search'              => __( 'Search results for &#8220;%s&#8221;', 'radium' ),
 			/* Translators: %s is the page number. */
-			'paged'               => __( 'Page %s',                             'radium' ),
+			'paged'               => __( 'Pagina %s',                             'radium' ),
 			/* Translators: Minute archive title. %s is the minute time format. */
-			'archive_minute'      => __( 'Minute %s',                           'radium' ),
+			'archive_minute'      => __( 'Minuto %s',                           'radium' ),
 			/* Translators: Weekly archive title. %s is the week date format. */
-			'archive_week'        => __( 'Week %s',                             'radium' ),
+			'archive_week'        => __( 'Semana %s',                             'radium' ),
 
 			/* "%s" is replaced with the translated date/time format. */
 			'archive_minute_hour' => '%s',

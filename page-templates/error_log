@@ -1,2 +1,4 @@
 [25-Feb-2015 14:01:28 UTC] PHP Fatal error:  Call to undefined function bbp_get_statistics() in /home/gamelive/public_html/wp-content/themes/newscore/page-templates/page-forum-statistics.php on line 12
 [04-Mar-2015 13:52:44 UTC] PHP Fatal error:  Call to undefined function bbp_get_statistics() in /home/gamelive/public_html/wp-content/themes/newscore/page-templates/page-forum-statistics.php on line 12
+[06-Mar-2015 03:36:37 UTC] PHP Fatal error:  Call to undefined function bbp_get_statistics() in /home/gamelive/public_html/wp-content/themes/newscore/page-templates/page-forum-statistics.php on line 12
+[06-Mar-2015 12:00:20 UTC] PHP Fatal error:  Call to undefined function bbp_get_statistics() in /home/gamelive/public_html/wp-content/themes/newscore/page-templates/page-forum-statistics.php on line 12
